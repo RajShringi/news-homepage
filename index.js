@@ -4,7 +4,7 @@ const topLine = document.querySelector(".top");
 const middleLine = document.querySelector(".middle");
 const bottomLine = document.querySelector(".bottom");
 
-document.addEventListener("click", () => {
+hamburger.addEventListener("click", () => {
   if (mobileNav.classList.contains("hidden")) {
     mobileNav.classList.add("flex", "slideIn");
     mobileNav.classList.remove("hidden");
